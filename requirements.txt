@@ -2,3 +2,4 @@ ovos-plugin-manager>=0.0.1a12
 ovos-utils~=0.0.14a7
 phonemizer~=3.0
 torch~=1.10
+unidecode

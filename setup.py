@@ -16,7 +16,8 @@ setup(
     install_requires=["ovos-plugin-manager>=0.0.4a2",
                       "ovos-utils~=0.0.14a7",
                       "phonemizer~=3.0",
-                      "torch~=1.10"],
+                      "torch~=1.10",
+                      "unidecode"],
     zip_safe=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
