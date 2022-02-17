@@ -14,9 +14,11 @@ setup(
     packages=['neon_tts_plugin_glados',
               'neon_tts_plugin_glados.utils'],
     install_requires=["ovos-plugin-manager>=0.0.4a2",
-                      "ovos-utils~=0.0.14a7",
+                      "ovos-utils~=0.0.15a1",
                       "phonemizer~=3.0",
                       "torch~=1.10",
+                      "inflect",
+                      "scipy",
                       "unidecode"],
     zip_safe=True,
     classifiers=[
