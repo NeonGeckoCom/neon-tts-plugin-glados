@@ -11,6 +11,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Build Docker
-          uses: docker-practice/actions-setup-docker@master
-          run: |
-            sudo docker build . -t ovosttsserver
+        uses: docker-practice/actions-setup-docker@master
+        run: |
+          sudo docker build . -t ovosttsserver
