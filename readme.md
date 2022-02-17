@@ -1,4 +1,4 @@
-_## Description
+## Description
 
 OVOS TTS plugin for [GladosTTS](https://github.com/R2D2FISH/glados-tts)
 
@@ -11,7 +11,7 @@ All models have been optimized and quantized.
 
 `pip install neon-tts-plugin-glados`
 
-##_ Configuration
+## Configuration
 
 ```json
   "tts": {
@@ -19,3 +19,17 @@ All models have been optimized and quantized.
     }
   }
 ```
+
+## Docker
+
+build it
+```bash
+docker build . -t gladostts
+```
+
+run it
+```bash
+docker run -p 8080:9666 gladostts
+```
+
+use it `http://localhost:8080/synthesize/hello`
