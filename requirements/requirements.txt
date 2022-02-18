@@ -1,5 +1,5 @@
-ovos-plugin-manager>=0.0.1a12
-ovos-utils~=0.0.15a1
+ovos-plugin-manager>=0.0.4a2
+ovos-utils~=0.0.15
 phonemizer~=3.0
 torch~=1.10
 unidecode

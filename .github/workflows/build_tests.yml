@@ -30,3 +30,12 @@ jobs:
       - name: Install core repo
         run: |
           pip install .
+  docker_build_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: docker-practice/actions-setup-docker@master
+      - run: |
+          sudo docker build . -t ovosttsserver
