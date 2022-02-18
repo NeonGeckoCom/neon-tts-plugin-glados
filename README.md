@@ -17,7 +17,6 @@ All models have been optimized and quantized.
   "tts": {
     "module": "neon-tts-plugin-glados"
     }
-  }
 ```
 
 ## Docker
