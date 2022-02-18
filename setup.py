@@ -40,6 +40,7 @@ setup(
     version=version,
     description='glados tts plugin for OpenVoiceOS',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/NeonGeckoCom/neon-tts-plugin-glados',
     author='Neongecko',
     author_email='developers@neon.ai',
