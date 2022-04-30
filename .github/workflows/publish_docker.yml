@@ -4,7 +4,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: OpenVoiceOS/glados-tts
+  IMAGE_NAME: NeonGeckoCom/glados-tts
 
 jobs:
   build_and_publish_docker:
