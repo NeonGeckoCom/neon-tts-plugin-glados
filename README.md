@@ -21,14 +21,17 @@ All models have been optimized and quantized.
 
 ## Docker
 
-build it
+A docker container using [ovos-tts-server](https://github.com/OpenVoiceOS/ovos-tts-server) is available
+
+You can build and run it locally
+
 ```bash
 docker build . -t gladostts
-```
-
-run it
-```bash
 docker run -p 8080:9666 gladostts
 ```
 
 use it `http://localhost:8080/synthesize/hello`
+
+Or use a public instance:
+- http://glados.2022.us
+- https://glados.jarbasai.online
